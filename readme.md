@@ -1,5 +1,6 @@
 Как запустить данный проект:
 1. Из коренной папки проекта активировать виртуальную среду: source test/bin/activate.
+Все дальнейшие действия выполнять в виртуальной среде.
 2. Запустить Redis: redis-server. 
 3. Запустить воркер Celery из папки testwork: celery worker -A testwork --concurrency=< макс.число задач >.
 4. Запустить сервер nginx: python3 manage.py runserver.
